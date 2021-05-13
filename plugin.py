@@ -23,7 +23,7 @@ class P(object):
     logger = get_logger(package_name)
     blueprint = Blueprint(package_name, package_name, url_prefix='/%s' %  package_name, template_folder=os.path.join(os.path.dirname(__file__), 'templates'))
     menu = { 
-        'main' : [package_name, u'봇 다운로드 - AV'],
+        'main' : [package_name, u'봇 다운로드 - AV ex'],
         'sub' : [
             ['receive', u'수신'], ['broadcast', u'방송'], ['log', u'로그']
         ], 
