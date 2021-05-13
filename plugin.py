@@ -39,11 +39,11 @@ class P(object):
     }  
     plugin_info = {
         'version' : '0.2.0.0',
-        'name' : 'bot_downloader_av',
+        'name' : 'bot_downloader_av_ex',
         'category_name' : 'torrent',
         'developer' : 'soju6jan',
         'description' : u'AV 토렌트 수신 & 방송 처리',
-        'home' : 'https://github.com/soju6jan/bot_downloader_av',
+        'home' : 'https://github.com/soju6jan/bot_downloader_av_ex',
         'more' : '',
     }
     ModelSetting = get_model_setting(package_name, logger)
